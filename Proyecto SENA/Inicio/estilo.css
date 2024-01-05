@@ -1,0 +1,170 @@
+/*Estilos de mi pagina web */
+
+body
+{
+	padding: 0px;
+	font-family: arial;
+	position: relative;
+
+}
+
+.formulario_edicion
+{
+	width: 50%;
+	float: center;
+}
+.formulario{
+	width: 50%;
+	float: center;
+	
+}
+.formulario_edicion
+{
+	width: 50%;
+	float: center;
+
+}
+.lista_formulario{
+	width: 50%;
+	float: center;
+}
+
+.tabla_formulario
+{
+	background: #BDBDBD;
+	width: 100%;
+
+}
+
+.tabla_formulario td
+{  padding:2%;
+	background: white;
+
+}
+
+.tabla_formulario input
+{   padding:3%;
+	border:2px solid #BDBDBD;
+	width: 95%;
+	border-radius: 4px;
+
+}
+
+.btn-boton
+{
+	padding: 3%;
+	border:none;
+	background: #00BFFF;
+	color:white;
+	font-weight: bold;
+}
+
+.btn_editar
+{
+	padding: 3%;
+	border:none;
+	background: #04B486;
+	color:white;
+	font-weight: bold;
+	width: 100%;
+	margin-bottom: 3px;
+}
+.btn_eliminar
+{
+	padding: 3%;
+	border:none;
+	background: #FA5858;
+	color:white;
+	font-weight: bold;
+	width: 100%;
+	margin-bottom: 3px;
+}
+.contenedor
+{
+	width: 100%;
+	padding: 0%;
+	margin: 0px;
+}
+
+.panel_izq
+{   background: #18b895;
+	float: center;
+	width: 100%;
+	color: rgb(0, 0, 0);
+}
+/* Estilos de mi pie de pagina */
+
+.pie{
+	width: 100%;
+	color: white;
+}
+
+.panel_pie
+{
+   background: rgb(23, 218, 169);
+   float: left;
+   width: 100%;
+   padding: 0px;
+   margin: 0px;
+}
+.cont_pie
+{
+	padding: 0%;
+	background:  #3fa58f;
+}
+
+.cont_pie h1
+{
+	text-align: center;
+}
+.copy{
+	width: 100%;
+	padding: 3%;
+	color: rgb(69, 173, 151);
+	background: ;
+	padding-top: 0;
+	float: center;
+}
+
+/* Estilos de menu */
+
+.cabeza
+{
+   width: 100%;
+   height: 60px;
+   background: #0affca;
+}
+.menu
+{   width: 100%;
+	margin:0px;
+	padding: 0px;
+	background: #48cca0;
+	
+	margin-top: 0px;
+}
+
+.submenu{
+	list-style: none;
+	padding: 1%;
+	float: right;
+	background: #5aebae;
+	text-align: center;
+	transition: 0.5s;
+	margin-right: 20px;
+}
+
+.link{
+	text-decoration: none;
+	color:white;
+
+}
+
+.submenu:hover{
+	
+	background: #9da1a3;
+	font-weight: bold;
+	transition: 0.5s;
+	font-size: 20px;
+}
+
+

@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.encabezado{
+    background: #45e6b0;
+}
+.logo{
+    width: 75px;
+    border-radius: 20%;
+}
+.encabezado nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: -10px;
+}
+.encabezado nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    padding: 6px 10px;
+    display: block;
+}
+a:hover{
+    background: rgb(255, 255, 255);
+}
+.encabezado nav ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+.encabezado nav ul li ul{
+    position:absolute;
+    background: #45e6b0;
+}
+.encabezado nav ul li ul li{
+    width: 132px;
+    position: relative;
+}
+.encabezado nav ul li ul li ul{
+    width: 120px;
+    top: 20px;;
+    left:90px;
+    position:absolute;
+}
+.encabezado nav ul li ul{
+    display: none;
+}
+.encabezado nav ul li:hover>ul{
+    display: block;
+}
+.quindio{
+ width: 1349px;
+ height: 500px;
+}
+.t1{
+    margin:50px 30px;
+    background-color: #45e6b0;
+    padding: 15px;
+}
+.hotel{
+    width: 380px;
+    height: 240px;
+    margin: -30px 90px;
+}
+.cabaña{
+    width: 380px;
+    height: 240px;
+    margin: -30px -80px;
+}
+.camping{
+    width: 380px;
+    height: 240px;
+    margin: -30px 90px;
+} 
+.p1{
+    margin:25px 80px;
+    padding: 10px;
+}
+.p2{
+    margin:-70px 475px;
+    padding: 10px; 
+}
+.p3{
+    margin: 30px 868px;
+    padding: 10px;
+}
+.t2{
+    margin:10px 30px;
+    background-color: #e7802b;
+    padding: 15px;
+}
+.balconq{
+    width: 380px;
+    height: 240px;
+    margin: 10px 90px;
+}
+.callesita{
+    width: 380px;
+    height: 240px;
+    margin: 10px -80px;
+}
+.plazoleta{
+    width: 380px;
+    height: 240px;
+    margin: 10px 90px;
+}
+.p4{
+    margin:-13px 80px;
+    padding: 10px;
+}
+.p5{
+    margin:-45px 475px;
+    padding: 10px; w
+}
+.p6{
+    margin: 10px 380px;
+
+}
+.t3{
+    margin:70px 30px;
+    background-color: #45e6b0;
+    padding: 15px;
+}
+.concierto{
+    width: 380px;
+    height: 240px;
+    margin: -50px 90px;
+}
+.halloween{
+    width: 380px;
+    height: 240px;
+    margin: -50px -80px;
+}
+.ajedrez{
+    width: 380px;
+    height: 240px;
+    margin: -50px 90px;
+}
+.p7{
+    margin:45px 80px;
+    padding: 10px;
+}
+.p8{
+    margin:-85px 475px;
+    padding: 10px; 
+}
+.p9{
+    margin: 55px 315px;
+}
+.pie{
+    background: #6dc5a8;
+    width:1349px;
+    height: 120px;
+}
+
+button{
+    top: 10%;
+    left: 75%;
+    position: relative;
+    padding: 10px 20px;
+    font-size: 15px;
+    border:none;
+    background: #0f5540;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.atencionalusuario{
+    width: 60px;
+    height: 60px;
+    margin: -3% 70%;
+}
+.logopie{
+    width: 65px;
+    border-radius: 20%;
+    margin-left: 60px;
+    margin: 20px 60px;
+}
+.contacto{
+  margin: -80px 200px;
+}
+.email{
+    margin: 79px 200px;
+}
+.telefono{
+    margin: -75px 199px;
+}

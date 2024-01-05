@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Atencion al cliente </title>
+    <link rel="icon" type="image/png" href="imagenes/favicon.png"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+</head>
+<body style="background-color: #7e7e7e">
+<div class="row">
+<div class="col-sm-6 col-sm-offset-3">
+    <div class="well" style="margin-top: 10%;">
+    <h3>Buzon de quejas,sugerencias y agradecimientos</h3>
+    <form role="form" id="Buzon de quejas,sugerencias y agradecimientos" data-toggle="validator" class="shake">
+        <div class="row">
+            <div class="form-group col-sm-6">
+                <label for="Nombre" class="h4">Nombre o apodo</label>
+                <input type="text" class="form-control" id="name" placeholder="Digite su nombre o apodo" required data-error="NEW ERROR MESSAGE">
+                
+                <div class="help-block with-errors"></div>
+                
+            </div>
+        <div>
+            <form action="../../form-result.php" target="_blank">
+                
+
+                <p>
+              
+                  Selecciona el motivo de tu mensaje:<br>
+              
+                  <input type="checkbox" name="Quejas"> Quejas<br>
+              
+                  <input type="checkbox" name="sugerencias"> Sugerencias<br>
+              
+                  <input type="checkbox" name="Agradecimientos"> Agradecimientos<br>
+              
+                </p>
+                      
+              </form>
+              
+              </form>
+        </div>
+        </div>
+        <div class="form-group">
+            <label for="Mensaje" class="h4 ">Mensaje</label>
+            <textarea id="Mensaje" class="form-control" rows="5" placeholder="Por favor ingresa lo que quieras decir" required></textarea>
+            <span id="message_validation" class="error_message"></span>
+            <div class="help-block with-errors"></div>
+        </div>
+        <button type="Enviar comentario" id="form-Enviar comentario"  style="display: block; margin: 0 auto;" class="btn btn-success btn-lg pull-tag ">Enviar comentario</button>
+        <div id="msgEnviar_comentario" class="h3 text-center hidden"></div>
+        <div class="clearfix"></div>
+        <div>
+        
+        </div>
+    </form>
+    </div>
+</div>
+</div>
+</body>
+</form>
+<script  type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/validator.min.js"></script>
+<script type="text/javascript" src="js/form-scripts.js"></script>
+</html>

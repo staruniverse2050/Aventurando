@@ -1,0 +1,436 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.encabezado{
+    background: #6dc5a8;
+    width: 1519px;
+}
+.logo{
+    width: 75px;
+    border-radius: 20%;
+}
+.encabezado nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: -10px;
+}
+.encabezado nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    padding: 6px 10px;
+    display: block;
+}
+a:hover{
+    background: rgb(255, 255, 255);
+}
+.encabezado nav ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+.encabezado nav ul li ul{
+    position:absolute;
+    background: #6dc5a8;
+}
+.encabezado nav ul li ul li{
+    width: 132px;
+    position: relative;
+}
+.encabezado nav ul li ul li ul{
+    width: 123px;
+    top: 20px;;
+    left:90px;
+    position:absolute;
+}
+.encabezado nav ul li ul{
+    display: none;
+}
+.encabezado nav ul li:hover>ul{
+    display: block;
+}
+.titulo{
+    font-size: 60px;
+    margin: 75px 55px;
+}
+.s1{
+    font-size: 30px;
+    margin: -70px 60px;
+}
+.lineafinde{
+    background-color: #06af3f;
+    width: 31%;
+    height: 0.8%;
+    margin: -3% 5%;
+}
+.lineafinde2{
+    background-color: #06af3f;
+    width: 33.1%;
+    height: 0.8%;
+    margin: 3% 61%;
+}
+.finde{
+    position:absolute;
+    top: 64%;
+    left: 40%;
+}
+#carruselfinde{
+    height: 44%;
+    width: 98%;
+    overflow: hidden;
+    margin: 5% -1%;
+}
+.itemfinde{
+    height: 100%;
+    position: relative;
+}
+.tarjetafinde{
+    height: 100%;
+    position: relative;
+}
+.flechasfinde{
+    position: absolute;
+    top: 90px;
+    height: 25%;
+    width:98%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.negrosYblancos{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+.manizales{
+    width:28%;
+    height:81%;
+    margin: 0px -40px;
+}
+.cartagena{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+.negrosYblancostitulo{
+    margin: 0.5% 8%;
+}
+.manizalestitulo{
+    margin: -2% 30%;
+}
+.cartagenatitulo{
+    margin: 0.2% 200px;
+}
+.barranquillatitulo{
+    margin: 0% 12%;
+}
+.iberoamericanotitulo{
+    margin: -1.2% 45%;
+}
+.semanasantatitulo{
+    margin: 0.2% 200px;
+}
+.filbotitulo{
+    margin: 0.5% 13.5%;
+}
+.leyendatitulo{
+    margin: -2% 43%;
+}
+.mononuñeztitulo{
+    margin: 0.5% 255px;
+}
+.festitangotitulo{
+    margin: 0.5% 12%;
+}
+.colombiamodatitulo{
+    margin: -2% 43%;
+}
+.jazztitulo{
+    margin: 0.5% 220px;
+}
+.florestitulo{
+    margin: 5px 180px;
+}
+.patronalestitulo{
+    margin: -2% 45%;
+}
+.alumbradotitulo{
+    margin: 10px 250px;
+}
+.barranquilla{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+.iberoamericano{
+    width:28%;
+    height: 81%;
+    margin: 0px -40px;
+}
+.semanasanta{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+.filbo{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+.leyenda{
+    width:28%;
+    height: 81%;
+    margin: 0px -40px;
+}
+.mononuñez{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+.festitango{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+.colombiamoda{
+    width:28%;
+    height: 81%;
+    margin: 0px -40px;
+}
+.jazz{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+.flores{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+.patronales{
+    width:28%;
+    height: 81%;
+    margin: 0px -40px;
+}
+.alumbrado{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+a{
+    text-decoration: none;
+}
+i{
+    text-decoration: none;
+}
+.experiencias{
+    position:absolute;
+    top: 130%;
+    left: 38%;
+}
+.lineaexperiencias{
+    background-color: #ffc60a;
+    width: 31%;
+    height: 0.8%;
+    margin: -8% 5%;
+}
+.lineaexperiencias2{
+    background-color: #ffc60a;
+    width: 33.1%;
+    height: 0.8%;
+    margin: 8% 61.5%;
+}
+#carruselexperiencias{
+    height: 43%;
+    width: 98%;
+    overflow: hidden;
+    position: relative;
+    top: -20%;
+}
+.itemexperiencias{
+    height: 100%;
+    position: relative;
+}
+.tarjetaexperiencias{
+    height: 100%;
+    position: relative;
+}
+.flechasexperiencias{
+    position: absolute;
+    top: 90px;
+    height: 25%;
+    width:98%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.virgen{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+.reinado{
+    width:28%;
+    height:81%;
+    margin: 0px -40px;
+}
+.arte{
+    width:28%;
+    height:81%;
+    margin: 0px 70px;
+}
+.virgentitulo{
+    margin: 0% 15%;
+}
+.reinadotitulo{
+    margin: -15px 20%;
+}
+.artetitulo{
+    margin: 0% 258px;
+}
+.escritorestitulo{
+    margin: 0.5% 15%;
+}
+.sanpedrotitulo{
+    margin: -2% 44%;
+}
+.lunaverdetitulo{
+    margin: 0.5% 255px;
+}
+.tatacoatitulo{
+    margin: 0.5% 14%;
+}
+.salsatitulo{
+    margin: -1.7% 44%;}
+.calititulo{
+    margin: 0.5% 230px;
+}
+.canastotitulo{
+    margin: 0.5% 13%;
+}
+.basiliotitulo{
+    margin: -2% 42%;
+}
+.candelariatitulo{
+    margin: 0.5% 240px;
+}
+.astronomiatitulo{
+    margin: 0.5% 13%;
+}
+.religiosatitulo{
+    margin: -2% 44%;
+}
+.joropotitulo{
+    margin: 0.5% 240px;
+}
+.escritores{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+.sanpedro{
+    width:28%;
+    height: 81%;
+    margin: 0px -40px;
+}
+.lunaverde{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+.tatacoa{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+.salsa{
+    width:28%;
+    height: 81%;
+    margin: 0px -40px;
+}
+.cali{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+.canasto{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+.basilio{
+    width:28%;
+    height: 81%;
+    margin: 0px -40px;
+}
+.candelaria{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+.astronomia{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+.religiosa{
+    width:28%;
+    height: 81%;
+    margin: 0px -40px;
+}
+.joropo{
+    width:28%;
+    height: 81%;
+    margin: 0px 70px;
+}
+a{
+    text-decoration: none;
+}
+i{
+    text-decoration: none;
+}
+.pie{
+    background: #6dc5a8;
+    width:1519px;
+    height: 130px;
+}
+button{
+    top: 10%;
+    left: 75%;
+    position: relative;
+    padding: 10px 20px;
+    font-size: 15px;
+    border:none;
+    background: #0f5540;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.atencionalusuario{
+    width: 60px;
+    height: 60px;
+    margin: -3% 70%;
+}
+.logopie{
+    width: 65px;
+    border-radius: 20%;
+    margin-left: 60px;
+    margin: 20px 60px;
+}
+.contacto{
+  margin: -80px 200px;
+}
+.email{
+    margin: 79px 200px;
+}
+.telefono{
+    margin: -75px 199px;
+}
